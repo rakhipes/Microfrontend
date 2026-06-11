@@ -1,0 +1,9 @@
+[submodule "host-tals"]
+	path = host-tals
+	url = https://github.com/TestAmericaLabs/poc-microfrontend.git
+[submodule "login"]
+	path = login
+	url = https://github.com/TestAmericaLabs/poc-microfrontend.git
+[submodule "sample"]
+	path = sample
+	url = https://github.com/TestAmericaLabs/poc-microfrontend.git
