@@ -1,0 +1,43 @@
+<div>
+<nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Tals Apllication</a>
+    </div>
+</nav>
+
+</div>
+<div>
+  <router-outlet></router-outlet>
+</div>
+
+<div class="container-fluid">
+  <div class="row flex-nowrap">
+      <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
+          <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+            <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+              <li>
+                <a href="/home" class="nav-link px-0 align-middle">
+                  <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline">Home</span> 
+                </a>
+              </li>
+              <li>
+                  <a href="/sample/splitting" class="nav-link px-0 align-middle">
+                      <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline">Sample Splitting</span> 
+                  </a>
+              </li>
+              <li>
+                <a href="/login/samplelogin" class="nav-link px-0 align-middle">
+                    <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline">Login</span> 
+                </a>
+            </li>
+            </ul>
+            
+          </div>
+      </div>
+      <div class="col py-3">
+        <!-- NAVEGACION DE RUTAS -->
+        <router-outlet />
+        <!-- NAVEGACION DE RUTAS -->
+      </div>
+  </div>
+</div>
